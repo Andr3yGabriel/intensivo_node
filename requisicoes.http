@@ -1,0 +1,17 @@
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{
+    "title": "Curso de .NET"
+}
+
+###
+
+GET http://localhost:3000/courses
+
+###
+
+GET http://localhost:3000/courses/b9fa6469-6947-4d45-a499-5f663764ac50
+
+###
+
