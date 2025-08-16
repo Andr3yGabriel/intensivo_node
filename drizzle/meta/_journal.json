@@ -15,6 +15,34 @@
       "when": 1755147384048,
       "tag": "0001_quiet_nico_minoru",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755205852526,
+      "tag": "0002_magenta_frog_thor",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755205921003,
+      "tag": "0003_aberrant_jamie_braddock",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755206795019,
+      "tag": "0004_concerned_christian_walker",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1755207354417,
+      "tag": "0005_parched_kate_bishop",
+      "breakpoints": true
     }
   ]
 }
