@@ -43,6 +43,27 @@
       "when": 1755207354417,
       "tag": "0005_parched_kate_bishop",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1755383605532,
+      "tag": "0006_jittery_the_hunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1755383629146,
+      "tag": "0007_harsh_mulholland_black",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1755383916367,
+      "tag": "0008_square_zaladane",
+      "breakpoints": true
     }
   ]
 }

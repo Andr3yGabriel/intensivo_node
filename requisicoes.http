@@ -1,8 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyY2YwMDFhYi0xMmQ2LTQ5YTktOThlOS1kNTg1MmI1ZWEyZmYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NTQ2MjM3OX0.aUvN6te68127_FHnn9Ltd8zbQDCioeARTInAAkTuYZ4
 
 {
-  "title": "Curso de Cassandra"
+  "title": "Curso de Cobol"
 }
 
 ###
@@ -11,4 +12,15 @@ GET http://localhost:3333/courses?orderBy=title
 
 ###
 
-GET http://localhost:3333/courses/3debd0ad-5995-4825-8ed7-2b6655596585
+GET http://localhost:3333/courses/c3ab9837-bbbb-4031-a930-482af9dee2ff
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyY2YwMDFhYi0xMmQ2LTQ5YTktOThlOS1kNTg1MmI1ZWEyZmYiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NTQ2MTgzMX0.3HCQKNVPqV5KC0Gx4rN_YOvWi9ah2L2A_f3lqoN-fZI
+
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "Gael87@gmail.com",
+  "password": "123456"
+}
