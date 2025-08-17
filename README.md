@@ -15,7 +15,7 @@ Uma API REST moderna construída com **Fastify**, **Drizzle ORM** e **PostgreSQL
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Scripts Disponíveis](#scripts-disponíveis)
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto é uma API REST para gerenciamento de cursos, desenvolvida como parte de um desafio Node.js. A aplicação oferece funcionalidades completas de CRUD para cursos, com validação de dados usando Zod e documentação automática da API.
 
@@ -28,7 +28,7 @@ Este projeto é uma API REST para gerenciamento de cursos, desenvolvida como par
 - 🐳 **Containerização**: Docker para banco de dados
 - 🔧 **TypeScript**: Tipagem estática completa
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Fastify** - Framework web rápido e eficiente
 - **Drizzle ORM** - ORM moderno e type-safe
@@ -38,13 +38,13 @@ Este projeto é uma API REST para gerenciamento de cursos, desenvolvida como par
 - **Docker** - Containerização
 - **Swagger/OpenAPI** - Documentação da API
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Node.js (versão 18 ou superior)
 - Docker e Docker Compose
 - npm ou yarn
 
-## 🚀 Instalação
+## Instalação
 
 1. **Clone o repositório**
 
@@ -72,7 +72,7 @@ Este projeto é uma API REST para gerenciamento de cursos, desenvolvida como par
    NODE_ENV=development
    ```
 
-## ⚙️ Configuração
+## Configuração
 
 ### Banco de Dados
 
@@ -87,7 +87,7 @@ Este projeto é uma API REST para gerenciamento de cursos, desenvolvida como par
    npm run db:migrate
    ```
 
-## 🎮 Uso
+## Uso
 
 ### Desenvolvimento
 
@@ -109,7 +109,7 @@ npm run db:migrate            # Executa migrações pendentes
 npm run db:studio             # Abre o Drizzle Studio
 ```
 
-## 📡 Endpoints da API
+## Endpoints da API
 
 ### Cursos
 
@@ -141,7 +141,7 @@ curl http://localhost:3333/courses
 curl http://localhost:3333/courses/3debd0ad-5995-4825-8ed7-2b6655596585
 ```
 
-## 📚 Documentação da API
+## Documentação da API
 
 A documentação interativa da API está disponível em:
 
@@ -150,7 +150,7 @@ A documentação interativa da API está disponível em:
 
 A documentação é gerada automaticamente baseada nos esquemas Zod definidos nas rotas.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 intensivo_node_dia_1/
@@ -187,7 +187,7 @@ intensivo_node_dia_1/
 - `name` (Text, Not Null) - Nome do usuário
 - `email` (Text, Not Null, Unique) - Email do usuário
 
-## 🔧 Scripts Disponíveis
+## Scripts Disponíveis
 
 | Script        | Descrição                                                |
 | ------------- | -------------------------------------------------------- |
@@ -196,7 +196,7 @@ intensivo_node_dia_1/
 | `db:migrate`  | Executa migrações pendentes no banco de dados            |
 | `db:studio`   | Abre o Drizzle Studio para visualizar/editar dados       |
 
-## 🐳 Docker
+## Docker
 
 O projeto inclui configuração Docker para o banco de dados PostgreSQL:
 
@@ -208,7 +208,7 @@ docker-compose up -d
 docker-compose down
 ```
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
